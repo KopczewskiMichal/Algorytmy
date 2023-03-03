@@ -78,7 +78,7 @@ def pomiar_czasu_f2(nn):
         Fn = n ** 2
         print(n, Tn, Fn / Tn)
 
-# pomiar_czasu_f2([5,50,100,200,500, 1000, 2000])
+pomiar_czasu_f2([5,50,100,200,500, 1000, 2000])
 
 
 def test_zgodności_wyników(n, iletestow):
